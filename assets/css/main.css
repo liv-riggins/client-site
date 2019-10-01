@@ -35,6 +35,7 @@ body {
 
 ol, ul {
 	list-style: none;
+	text-decoration: none;
 }
 
 blockquote, q {
@@ -273,6 +274,7 @@ input, select, textarea {
 		border: 0;
 		border-bottom: solid 1px;
 		margin: 2.5rem 0;
+		color: #7a0019;
 	}
 
 		hr.major {
@@ -320,11 +322,12 @@ input, select, textarea {
 	}
 
 	a {
-		color: #000000;
+		color: #5b0013;
+		text-decoration:none;
 	}
 
 		a:hover {
-			color: #47D3E5;
+			color: #ffde7a;
 		}
 
 	strong, b {
@@ -2765,7 +2768,7 @@ input, select, textarea {
 	}
 
 		ul.actions li {
-			padding: 0 0 0 1rem;
+			padding: 1em;
 			vertical-align: middle;
 		}
 
@@ -2872,6 +2875,7 @@ input, select, textarea {
 						}
 
 		}
+
 
 /* Icons */
 
@@ -3810,7 +3814,7 @@ input, select, textarea {
 /* Banner (style3) */
 
 	.banner.style3 {
-		padding: 3rem 3rem 3rem 3rem ;
+		padding: 0rem 3rem 0rem 3rem ;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -3886,12 +3890,12 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			.banner.style3 {
-				padding: 3.75rem 3rem 1.75rem 3rem ;
+				padding: 3rem 3rem 1.75rem 3rem ;
 			}
 
 				.banner.style3 .image {
-					width: 9rem;
-					height: 9rem;
+					width: 15rem;
+					height: 15rem;
 				}
 
 		}
@@ -3940,7 +3944,7 @@ input, select, textarea {
 		}
 
 		.banner.style3.fullscreen {
-			min-height: 10em;
+			min-height: 5em;
 		}
 
 		.banner.style3.orient-left {
@@ -3951,7 +3955,7 @@ input, select, textarea {
 		}
 
 			.banner.style3.orient-left .image {
-				margin: 0 0 2rem 3.5rem;
+				margin: 0 0 2rem 2.5rem;
 			}
 
 			@media screen and (max-width: 736px) {
@@ -6382,7 +6386,8 @@ input, select, textarea {
 		}
 
 			.gallery.style1 a:hover {
-				color: #47D3E5;
+				color: #7a0019;
+
 			}
 
 		.gallery.style1 strong, .gallery.style1 b {
@@ -6706,7 +6711,7 @@ input, select, textarea {
 		}
 
 			.gallery.style2 a:hover {
-				color: #47D3E5;
+				color: #7a0019;
 			}
 
 		.gallery.style2 strong, .gallery.style2 b {
@@ -8269,7 +8274,7 @@ input, select, textarea {
 			}
 
 				#wrapper > .invert a:hover {
-					color: #47D3E5;
+					color: #7a0019;
 				}
 
 			#wrapper > .invert strong, #wrapper > .invert b {
